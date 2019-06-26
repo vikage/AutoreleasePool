@@ -14,6 +14,7 @@
 		2AFA3DDD22C37EC3005FA5BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AFA3DDB22C37EC3005FA5BF /* LaunchScreen.storyboard */; };
 		2AFA3DE022C37EC3005FA5BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFA3DDF22C37EC3005FA5BF /* main.m */; };
 		2AFA3DEA22C37EC3005FA5BF /* AutoreleaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFA3DE922C37EC3005FA5BF /* AutoreleaseTests.m */; };
+		2AFA3DF722C38017005FA5BF /* largeFile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2AFA3DF622C38017005FA5BF /* largeFile.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		2AFA3DE522C37EC3005FA5BF /* AutoreleaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoreleaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AFA3DE922C37EC3005FA5BF /* AutoreleaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoreleaseTests.m; sourceTree = "<group>"; };
 		2AFA3DEB22C37EC3005FA5BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AFA3DF622C38017005FA5BF /* largeFile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = largeFile.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				2AFA3DDB22C37EC3005FA5BF /* LaunchScreen.storyboard */,
 				2AFA3DDE22C37EC3005FA5BF /* Info.plist */,
 				2AFA3DDF22C37EC3005FA5BF /* main.m */,
+				2AFA3DF622C38017005FA5BF /* largeFile.jpg */,
 			);
 			path = Autorelease;
 			sourceTree = "<group>";
@@ -148,7 +151,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1020;
-				ORGANIZATIONNAME = Ominext;
+				ORGANIZATIONNAME = xxx;
 				TargetAttributes = {
 					2AFA3DCC22C37EC1005FA5BF = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -186,6 +189,7 @@
 				2AFA3DDD22C37EC3005FA5BF /* LaunchScreen.storyboard in Resources */,
 				2AFA3DDA22C37EC3005FA5BF /* Assets.xcassets in Resources */,
 				2AFA3DD822C37EC1005FA5BF /* Main.storyboard in Resources */,
+				2AFA3DF722C38017005FA5BF /* largeFile.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +367,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Autorelease/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -371,6 +376,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.thanhdev.Autorelease;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -379,7 +385,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Autorelease/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -387,6 +394,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.thanhdev.Autorelease;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
